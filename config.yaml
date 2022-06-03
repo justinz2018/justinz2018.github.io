@@ -1,6 +1,6 @@
 baseURL: "https://justinz2018.github.io"
 languageCode: "en-us"
-title: "Justin Zhang - Personal Website"
+title: "Justin Zhang"
 theme: hugo-profile
 
 Paginate: 3
@@ -71,12 +71,12 @@ params:
     intro: "Hi, my name is"
     title: "Justin."
     subtitle: "I'm a software engineer"
-    content: "A passionate software developer. I specialize in systems programming, data engineering, and finance."
+    content: "A software developer who specializes in systems programming, data engineering, and finance."
     image: /images/hero.jpeg
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://raw.githubusercontent.com/justinz2018/justinz2018.github.io/main/static/resume.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -133,7 +133,7 @@ params:
           enable: false
           content: .
         content: |
-          "At Citadel, I worked on two major projects:"
+          At Citadel, I worked on two main projects.
           - I added additional querying features for Citadel's marketdata API (C++).
           - I performed data analysis on market data to allow migration to a newer marketdata pipeline (kdb, Python, pandas).
 
@@ -222,13 +222,12 @@ params:
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Please feel free to reach out at jrzhang@caltech.edu!
+    content: My inbox is always open. If you have any questions, please feel free to reach out!
     email: jrzhang@caltech.edu
     btnName: Contact me
 
   footer:
     # recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      facebook: https://facebook.com
+      github: https://github.com/justinz2018/
+      linkedin: https://www.linkedin.com/in/justin-zhang-345725190/
