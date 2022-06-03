@@ -97,7 +97,7 @@ params:
       I have a background in computer science and finance, and have a particular interest in the intersection of the two fields.
       I will be working full-time as a software developer at [Citadel](https://www.citadel.com/) in New York starting in August 2022.
 
-      I am currently working on wrapping up my undergraduate studies at Caltech. In my spare time, I enjoy running and being in nature.
+      I'm currently working on wrapping up my undergraduate studies at Caltech. In my spare time, I enjoy running and being in nature.
     skills:
       enable: true
       title: "Here are the technologies I'm most familiar with:"
@@ -138,6 +138,7 @@ params:
           My team at Citadel focused on creating and maintaining technologies to support electronic trading. In support of this, I worked on two main projects.
           - I added additional querying features for Citadel's existing marketdata API (C++).
           - I performed data analysis on market data to allow migration to a newer marketdata pipeline (kdb, Python, pandas).
+          My project helped the team release better versions of the marketdata pipeline.
 
       - job: "Web Development Intern"
         company: "Asana"
@@ -149,7 +150,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          Asana is a web-based work management application. To help users track milestones and deadlines, I helped to create JavaScript-based data visualizations that users could see in one centralized dashboard. This ultimately allowed users to better understand their progress at a glance. The main technologies used were Elasticsearch, Scala, and React.
+          Asana is a web-based work management application. To help users track milestones and deadlines, I helped to create JavaScript-based data visualizations that users could see in one centralized dashboard. This ultimately allowed users to better understand their progress at a glance. The main technologies I used were Elasticsearch, Scala, and React.
 
       - job: "Data Engineering Intern"
         company: "Robinhood"
@@ -161,7 +162,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          Robinhood allows their users to trade options, a highly leveraged financial instrument. To help with risk management, I designed a model to detect high-risk options positions based on the well-known binomial options pricing model. The main technologies used were Spark, Kafka, Airflow, and Presto.
+          Robinhood allows their users to trade options, a highly leveraged financial instrument. To help with risk management, I designed a model to detect high-risk options positions based on the well-known binomial options pricing model. The main technologies I used were Spark, Kafka, Airflow, and Presto.
 
   # Education
   education:
@@ -194,10 +195,10 @@ params:
     enable: true
     items:
       - title: ICPC Southern California Regionals
-        content: My team received first place in the ICPC regionals programming contest, competing against other top schools in the southern California area.
+        content: My team received first place in the ICPC regionals programming contest among 43 teams competing from top schools in the southern California area.
         url: http://socalcontest.org/current/index.shtml
       - title: USA Computing Olympiad (USACO)
-        content: I was a national finalist and camp qualifier for USACO, awarded to fewer than 30 students nationwide every year.
+        content: I was a national finalist and camp qualifier for USACO, a distinction awarded to fewer than 30 students nationwide every year.
         url: http://usaco.org/
       - title: Facebook Hacker Cup
         content: I was a top 2000 contestant in Facebook Hacker Cup, a worldwide online programming competition.
@@ -210,13 +211,13 @@ params:
       - title: Unflixable
         content: |-
           <small>Image: Testing our model for Bartow County, GA. From project final report</small><br/><hr/>
-          This was a project to predict the number of Coronavirus cases in spring of 2020, done for Caltech's CS 156b class. Our model was a hierarchical logistic growth model, trained with MCMC methods. From the model, we were able to gain some insight into how public policy had affected COVID case counts.
+          Unflixable was a project to predict the number of Coronavirus cases in spring of 2020, done for Caltech's CS 156b class. To perform predictions, we used a hierarchical logistic growth model trained with MCMC methods. From the model, we were able to gain some insight into how public policy had affected COVID case counts.
         image: /images/unflixable.png
 
       - title: GL-renderer
         content: |-
           <small>Image: Four cubes shaded in GL-renderer with Gouraud shading</small><br/><hr/>
-          GL-renderer was a project to render various objects from their object file specifications, done for Caltech's CS 171 class in the fall of 2019. Supported shading modes included Gouraud and Phong, as well as basic support for ray tracing.
+          GL-renderer was a project to render objects from their object file specifications, done for Caltech's CS 171 class in the fall of 2019. Supported shading modes included Gouraud, Phong, and basic ray tracing.
         image: /images/gl_renderer.png
 
   #Contact
