@@ -122,7 +122,7 @@ params:
           url: "https://example.com"
         info:
           enable: false
-        content: "At DRW, I worked on creating an auto-responder for quote requests from other brokers, as part of DRW's trading platform. Technologies used include Java and protobuf."
+        content: "At DRW, I sought to lessen the time spent traders spent manually quoting prices. To this end, I created an auto-responder for quote requests from other brokers and integrated the tool into DRW's trading platform. The major technologies I used include Java and protobuf."
 
       - job: "Software Engineering Intern"
         company: "Citadel"
@@ -135,8 +135,8 @@ params:
           enable: false
           content: .
         content: |
-          At Citadel, I worked on two main projects.
-          - I added additional querying features for Citadel's marketdata API (C++).
+          My team at Citadel focused on creating and maintaining technologies to support electronic trading. In support of this, I worked on two main projects.
+          - I added additional querying features for Citadel's existing marketdata API (C++).
           - I performed data analysis on market data to allow migration to a newer marketdata pipeline (kdb, Python, pandas).
 
       - job: "Web Development Intern"
@@ -149,7 +149,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          I worked to create web-based data visualizations to allow users to better analyze their usage data. Technologies used include Elasticsearch, Scala, and React.
+          Asana is a web-based work management application. To help users track milestones and deadlines, I helped to create JavaScript-based data visualizations that users could see in one centralized dashboard. This ultimately allowed users to better understand their progress at a glance. The main technologies used were Elasticsearch, Scala, and React.
 
       - job: "Data Engineering Intern"
         company: "Robinhood"
@@ -161,7 +161,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          I designed a model to detect high-risk options positions, based on the well-known binomial options pricing model. Technologies used include Spark, Kafka, Airflow, and Presto.
+          Robinhood allows their users to trade options, a highly leveraged financial instrument. To help with risk management, I designed a model to detect high-risk options positions based on the well-known binomial options pricing model. The main technologies used were Spark, Kafka, Airflow, and Presto.
 
   # Education
   education:
