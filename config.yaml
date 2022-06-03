@@ -147,7 +147,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          I worked to create web-based data visualizations to allow users to better analyze their usage data. Technologies used include Elasticsearch, Scala, React.
+          I worked to create web-based data visualizations to allow users to better analyze their usage data. Technologies used include Elasticsearch, Scala, and React.
 
       - job: "Data Engineering Intern"
         company: "Robinhood"
@@ -192,10 +192,10 @@ params:
     enable: true
     items:
       - title: ICPC Southern California Regionals
-        content: My team received first place in the ICPC regionals contest, competing against other top schools in the southern California area.
+        content: My team received first place in the ICPC regionals programming contest, competing against other top schools in the southern California area.
         url: http://socalcontest.org/current/index.shtml
       - title: USA Computing Olympiad (USACO)
-        content: I was a national finalist and camp qualifier for USACO, awarded to fewer than 30 students nationwide annually.
+        content: I was a national finalist and camp qualifier for USACO, awarded to fewer than 30 students nationwide every year.
         url: http://usaco.org/
       - title: Facebook Hacker Cup
         content: I was a top 2000 contestant in Facebook Hacker Cup, a worldwide online programming competition.
