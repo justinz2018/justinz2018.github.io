@@ -209,13 +209,13 @@ params:
     items:
       - title: Unflixable
         content: |
-          (Image: Testing our model for Bartow County, GA. From project final report)
+          ^Image: Testing our model for Bartow County, GA. From project final report^\
           This was a project to predict the number of Coronavirus cases in spring of 2020, done for Caltech's CS 156b class. Our model was a hierarchical logistic growth model, trained with MCMC methods. From the model, we were able to gain some insight into how public policy had affected COVID case counts.
         image: /images/unflixable.png
 
       - title: GL-renderer
         content: |
-          (Image: Four cubes shaded in GL-renderer with Gouraud shading)
+          ^Image: Four cubes shaded in GL-renderer with Gouraud shading^\
           GL-renderer was a project to render various objects from their object file specifications, done for Caltech's CS 171 class in the fall of 2019. Supported shading modes included Gouraud and Phong, as well as basic support for ray tracing.
         image: /images/gl_renderer.png
 
