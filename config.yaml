@@ -93,9 +93,11 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for systems programming and data engineering. I have a background in computer science and finance, and have a particular interest in the intersection of the two fields. I will be working full-time as a software developer at [Citadel](https://www.citadel.com/) in New York starting in August 2022.
+      I am a software developer with a passion for systems programming and data engineering.
+      I have a background in computer science and finance, and have a particular interest in the intersection of the two fields.
+      I will be working full-time as a software developer at [Citadel](https://www.citadel.com/) in New York starting in August 2022.
 
-      I am currently working on wrapping up my undergraduate studies at Caltech.
+      I am currently working on wrapping up my undergraduate studies at Caltech. In my spare time, I enjoy running and being in nature.
     skills:
       enable: true
       title: "Here are the technologies I'm most familiar with:"
