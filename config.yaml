@@ -1,6 +1,6 @@
 baseURL: "https://justinz2018.github.io"
 languageCode: "en-us"
-title: "Personal Website"
+title: "Justin Zhang - Personal Website"
 theme: hugo-profile
 
 Paginate: 3
@@ -10,35 +10,17 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-
-    #Dropdown menu
-    - identifier: dropdown
-      title: Example dropdown menu
-      name: Dropdown
-      weight: 2
-    - identifier: dropdown1
-      title: example dropdown 1
-      name: example 1
-      url: /#
-      parent: dropdown
-      weight: 1
-    - identifier: dropdown2
-      title: example dropdown 2
-      name: example 2
-      url: /#
-      parent: dropdown
-      weight: 2
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
 
 params:
-  title: "Personal Website"
-  description: Text about my cool site
+  title: "Justin Zhang - Personal Website"
+  description: Justin Zhang's personal website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -88,9 +70,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Justin."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    subtitle: "I'm a software engineer"
+    content: "A passionate software developer. I specialize in systems programming, data engineering, and finance."
+    image: /images/hero.jpeg
     button:
       enable: true
       name: "Resume"
@@ -98,77 +80,86 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/justinz2018/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/justin-zhang-345725190/
+          #customIcons:
+          #  - icon: /fav.png
+          #    url: "#"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I am a software developer with a passion for systems programming and data engineering. I have a background in computer science and finance, and have a particular interest in the intersection of the two fields. I will be working full-time as a software developer at [Citadel.](https://www.citadel.com/) in New York starting in August 2022.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am currently working on wrapping up my undergraduate studies at Caltech.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are the technologies I'm most familiar with:"
       items:
-        - "HTML"
-        - "CSS"
+        - "C/C++"
+        - "Python"
+        - "Java"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "NumPy, pandas, Matplotlib"
 
   # Experience
   experience:
     enable: true
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Software Engineering Intern"
+        company: "DRW"
+        companyUrl: "https://drw.com/"
+        date: "June 2021 - August 2021"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        info:
+          enable: false
+        content: "At DRW, I worked on creating an auto-responder for quote requests from other brokers, as part of DRW's trading platform. Technologies used include Java and protobuf."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Software Engineering Intern"
+        company: "Citadel"
+        companyUrl: "https://www.citadel.com/"
+        date: "February 2021 - April 2021"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content: .
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          "At Citadel, I worked on two major projects:"
+          - I added additional querying features for Citadel's marketdata API (C++).
+          - I performed data analysis on market data to allow migration to a newer marketdata pipeline (kdb, Python, pandas).
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Web Development Intern"
+        company: "Asana"
+        companyUrl: "https://asana.com/"
+        date: "June 2020 - September 2020"
         info:
           enable: false
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked to create web-based data visualizations to allow users to better analyze their usage data. Technologies used include Elasticsearch, Scala, React.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Data Engineering Intern"
+        company: "Robinhood"
+        companyUrl: "https://robinhood.com/"
+        date: "June 2019 - September 2019"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          I designed a model to detect high-risk options positions, based on the well-known binomial options pricing model. Technologies used include Spark, Kafka, Airflow, and Presto.
 
   # Education
   education:
@@ -178,13 +169,21 @@ params:
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Caltech"
-          url: "https://example.org"
+          url: "https://www.caltech.edu/"
         date: "2018 - 2022"
         GPA: "4.1 out of 4.3"
         content: |-
-            TODO
+            TA positions
+            - CS 124 (Operating Systems)
+
+            Extracurricular Activities
+            - Student Investment Fund (SIF)
+            - Quant finance club
+            - Chess club
+
+
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
 
@@ -192,13 +191,19 @@ params:
   achievements:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
+      - title: ICPC Southern California Regionals
+        content: My team received first place in the ICPC regionals contest, competing against other top schools in the southern California area.
+        url: http://socalcontest.org/current/index.shtml
+      - title: USA Computing Olympiad (USACO)
+        content: I was a national finalist and camp qualifier for USACO, awarded to fewer than 30 students nationwide annually.
+        url: http://usaco.org/
+      - title: Facebook Hacker Cup
+        content: I was a top 2000 contestant in Facebook Hacker Cup, a worldwide online programming competition.
+        url: https://www.facebook.com/codingcompetitions/hacker-cup
 
   # projects
   projects:
-    enable: true
+    enable: false
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
@@ -217,7 +222,7 @@ params:
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Please feel free to reach out at jrzhang@caltech.edu!
     email: jrzhang@caltech.edu
     btnName: Contact me
 
@@ -226,6 +231,4 @@ params:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
       facebook: https://facebook.com
