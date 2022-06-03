@@ -134,10 +134,11 @@ params:
         info:
           enable: false
           content: .
-        content: |
+        content: |-
           My team at Citadel focused on creating and maintaining technologies to support electronic trading. In support of this, I worked on two main projects.
           - I added additional querying features for Citadel's existing marketdata API (C++).
           - I performed data analysis on market data to allow migration to a newer marketdata pipeline (kdb, Python, pandas).
+
           My project helped the team release better versions of the marketdata pipeline.
 
       - job: "Web Development Intern"
